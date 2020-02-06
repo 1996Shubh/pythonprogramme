@@ -5,7 +5,7 @@ game_over=False
 guess=1
 while not game_over:
     if n==winning_number:
-        print(f"you win,and u win in {guess}   guess")
+        print(f"you win,and u win in {guess}  guess")
         game_over=True
     else:
         if winning_number>n:
